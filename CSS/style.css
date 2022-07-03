@@ -1,0 +1,273 @@
+
+<!-- Front-End.jpg
+Game-Dev.jpg
+Unity.jpg
+bootstrap.png
+c-hashtag.png
+c-plus.png
+chillies.png
+cloud.png
+code.gif
+computer.png
+css.png
+facebook.png
+html.png
+insta.png
+java.png
+javascript.png
+jquery.png
+linkedin.png
+me-modified.png
+mountain.png
+unity.png
+ 
+html{
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    overflow-x: hidden;
+}
+ 
+body::-webkit-scrollbar {
+    display: none;
+}
+ 
+section {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 0% 3.25rem;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+ 
+.container-fluid {
+    padding: 3% 15%;
+}
+ 
+/*Top Section*/
+#top {
+    text-align: center;
+    padding: 3% 15%;
+    background-color: #222831;
+    color: white;
+    z-index: -2;
+    overflow: hidden;
+}
+ 
+.profile-pic {
+    width: 60%;
+    margin: 25% 0;
+    z-index: 10;
+    position: relative;
+}
+ 
+.top-desc {
+    margin: 35% 0;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+}
+ 
+@media only screen and (max-width: 992px) and (min-width:750px) {
+    .profile-pic {
+        width: 50%;
+        margin: 2%;
+    }
+ 
+    .top-desc {
+        margin: 0;
+        text-align: center;
+    }
+}
+ 
+@media only screen and (max-width: 749px) {
+    .profile-pic {
+        width: 60%;
+        margin: 4%;
+        margin-top: 20%;
+    }
+ 
+    .top-desc {
+        margin: 0;
+        text-align: center;
+    }
+}
+.btn {
+    margin: 10% auto;
+}
+ 
+.description {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    z-index: 10;
+    color: #c6c6c6
+}
+ 
+.highlight {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #fff;
+}
+ 
+.animate-circle {
+    position: absolute;
+    pointer-events: none;
+    background-color: rgb(255, 73, 73);
+    animation: bubbleAnimation 5s linear infinite;
+    border-radius: 100%;
+    z-index: 0;
+}
+ 
+@keyframes bubbleAnimation {
+    0% {
+        transform: scale(0) translateY(0) rotate(0deg);
+        opacity: 0;
+    }
+ 
+    10% {
+        opacity: 1;
+    }
+ 
+    90% {
+        opacity: 1;
+    }
+ 
+    100% {
+        transform: scale(1) translateY(-500%) rotate(360deg);
+        opacity: 0;
+    }
+}
+ 
+/* About-Me Section */
+#about-me {
+    background-color: #EEEEEE;
+    text-align: center;
+    padding-bottom: 5%;
+}
+ 
+.h1 {
+    font-weight: 900;
+}
+ 
+.profile {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 5%;
+    line-height: 2;
+}
+ 
+.profile-desc {
+    color: #545454;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+ 
+ 
+.img-skills {
+    width: 50px;
+    height: 50px;
+    margin: 10% 2%;
+}
+ 
+.img-skills:hover{
+    width: 120px;
+    height: 120px;
+    box-shadow: 5px 10px 5px 10px #c6c6c6;
+}
+.my-skills {
+    margin: 25% 0;
+}
+ 
+@media only screen and (max-width: 992px) and (min-width: 500px){
+    .my-skills {
+        margin: 5% 0;
+    }
+ 
+    .img-skills {
+        width: 80px;
+        height: 80px;
+        margin: 10% 1%;
+    }
+    .img-skills:hover {
+        width: 100px;
+        height: 100px;
+    }
+    .profile{
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .my-skills {
+        margin: 4% 0;
+        margin-bottom: 10%;
+    }
+ 
+    .img-skills {
+        width: 60px;
+        height: 60px;
+        margin: 15% 3%;
+    }
+ 
+    .img-skills:hover {
+        width: 80px;
+        height: 80px;
+    }
+ 
+    .profile {
+        width: 95%;
+    }
+    .profile-desc{
+        font-size: 1rem;
+    }
+}
+.skills{
+    padding: 2% 15%;
+}
+ 
+/* Contact-Me Section */
+#contact-info{
+    text-align: center;
+    background-color: #222831;
+    color: #EEEEEE;
+    padding: 5% 15% 0;
+}
+.contact-sub-head{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(210, 210, 210);
+    margin-top: 3%;
+}
+.contact-desc{
+    font-family: 'Montserrat', sans-serif,
+    sans-serif;
+    color: rgb(210, 210, 210);
+}
+/* Footer Section */
+#footer{
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 1% 40%;
+}
+.social-container{
+    margin-bottom: 10%;
+}
+.img-footer{
+    width: 32px;
+    height: 32px;
+}
+.img-footer:hover{
+    width: 40px;
+    height: 40px;
+    box-shadow: 2px 5px 2px 5px #c6c6c6;
+}
+@media only screen and (max-width:500px) {
+    #footer{
+        padding: 1% 15%;
+    }    
+}
+ 
